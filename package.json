@@ -1,0 +1,12 @@
+{
+  "name": "mycard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "sass --watch style.scss style.css",
+    "build": "sass style.scss style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.94.0"
+  }
+}
