@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    justify-content: center;
+
+    &__hero{
+        width: 60%;
+    }
+
+    &__title{
+        text-align: center;
+        gap: 20px;
+        &-text{
+            color: #101828;
+            font-size: 72px;
+            font-weight: bold;
+        }
+        &-span{
+            color: oklch(0.546 0.245 262.881);
+        }
+
+    }
+    &__text{
+        padding: 0 83px;
+        text-align: center;
+        color: #4A5565;
+        font-size: 24px;
+    }
+
+    &__btn{
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 50px;
+    }
+    &__button-blue{
+        width: 23%;
+        padding: 15px;
+        border: none;
+        font-size: 17px;
+        color: #ffffff;
+        background-color: oklch(0.546 0.245 262.881) ;
+        box-shadow: 0px 3px 8px rgb(0, 0, 0, 0.5);
+        border-radius: 18px;
+    }
+    &__button-white{
+        width: 20%;
+        padding: 15px;
+        border: none;
+        background-color: #ffffff;
+        font-size: 16px;
+        color: #101828;
+        box-shadow: 0px 3px 8px rgb(0, 0, 0, 0.5);
+        border-radius: 18px;
+    }
+    &__social{
+        width: 53%;
+        &-icon{
+            width: 50px;
+            background: none;
+        }
+    }
+}

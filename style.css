@@ -1,8 +1,94 @@
-.card_profile-img {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  object-fit: cover;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  color: #101828;
+  font-size: 30px;
+  font-weight: bold;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 16px;
+}
+.header__button {
+  background: none;
+  border: none;
+  color: #101828;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main__hero {
+  width: 60%;
+}
+.main__title {
+  text-align: center;
+  gap: 20px;
+}
+.main__title-text {
+  color: #101828;
+  font-size: 72px;
+  font-weight: bold;
+}
+.main__title-span {
+  color: oklch(54.6% 0.245 262.881deg);
+}
+.main__text {
+  padding: 0 83px;
+  text-align: center;
+  color: #4A5565;
+  font-size: 24px;
+}
+.main__btn {
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 50px;
+}
+.main__button-blue {
+  width: 23%;
+  padding: 15px;
+  border: none;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: oklch(54.6% 0.245 262.881deg);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+}
+.main__button-white {
+  width: 20%;
+  padding: 15px;
+  border: none;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #101828;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+}
+.main__social {
+  width: 53%;
+}
+.main__social-icon {
+  width: 50px;
+  background: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

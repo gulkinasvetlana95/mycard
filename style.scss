@@ -1,9 +1,7 @@
-.card{
-    &_profile-img{
-        width: 500px;
-        height: 500px;
-        border-radius: 50%;
-        object-fit: cover;
-       
-    }
+@import './style/header.scss';
+@import './style/main.scss';
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
