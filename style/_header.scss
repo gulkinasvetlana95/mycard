@@ -1,7 +1,11 @@
 .header{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(192, 192, 192);
+
     &__logo{
+        padding-left: 30px;
+        margin: 10px;
         display: flex;
         justify-content: space-between;
     }
@@ -13,17 +17,21 @@
     }
 
     &__nav{
+        padding-right: 50px;
         display: flex;
        justify-content: space-between;
-       padding: 10px;
         gap: 16px;
     }
 
     &__button{
         background: none;
         border: none;
-        color: #101828;
+        color: #192b4d;
         font-size: 20px;
-        cursor: pointer;
+       &:hover{
+            color: #000000;
+            font-weight: bold;
+             cursor: pointer;
+        }
     }
 }

@@ -1,15 +1,20 @@
 .main{
     display: flex;
     justify-content: center;
+     background-color: rgb(244, 245, 254);
+    
 
     &__hero{
         width: 60%;
+        margin: 70px 0;
     }
 
     &__title{
+        margin-top: 300px;
         text-align: center;
         gap: 20px;
         &-text{
+            margin: 0;
             color: #101828;
             font-size: 72px;
             font-weight: bold;
@@ -27,6 +32,7 @@
     }
 
     &__btn{
+        margin: 30px 0;
         gap: 25px;
         display: flex;
         justify-content: center;
@@ -54,10 +60,56 @@
         border-radius: 18px;
     }
     &__social{
-        width: 53%;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        
+
         &-icon{
+            border-radius: 1px solid rgb(206, 206, 206);
             width: 50px;
-            background: none;
+            background: transparent;
         }
     }
+
+    &__btn-down{
+        margin: 40px 40px 70px  40px ;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    &__icon-down{
+        width: 60px;
+        height: 60px;
+        stroke: rgb(169, 168, 168);
+        stroke-width: 1.5;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        animation: bounceDown 1.2s ease-in-out infinite;
+        cursor: pointer;
+    }
+
+    &__button-down{
+        margin: 40px;
+        padding: 50px;
+        border: none;
+        background: transparent;
+        :hover{
+           stroke: rgb(75, 75, 75);
+         }
+    }
+}
+.email{
+    padding-top: 5px;
+    width: 44px;
+    background: transparent;
+}
+
+@keyframes bounceDown {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(30px);}
+  60% {transform: translateY(30px);}
+  100% {transform: translateY(0);}
 }
