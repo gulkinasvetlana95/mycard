@@ -1,0 +1,60 @@
+.footer{
+    display: flex;
+    padding: 48px 0;
+    background-color: oklch(0.21 0.034 264.665);
+
+    &__conteiner{
+        padding: 0 32px;
+        margin: 0 14px;
+        gap: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+
+    &__portfolio{
+        &-span{
+            font-size: 24px;
+            color: white;
+            margin: 0 0 16px;
+        }
+        &-text{
+            font-size: 16px;
+            color: oklch(0.707 0.022 261.325);
+        }
+    }
+    
+    &__text{
+            font-size: 18px;
+            color: white;
+            margin: 0 0 16px;
+            font-weight: bold;
+        }
+
+    &__button{
+        display: flex;
+        background: none;
+        border: none;
+        font-size: 16px;
+        margin: 0 0 8px;
+        color:  oklch(0.707 0.022 261.325);
+        &:hover{
+            font-weight: bold;
+            color: rgb(209, 209, 209);
+        }
+    }
+    &__social{
+
+        &-icon{
+            padding: 7px;
+            margin: 2px;
+            width: 6%;
+            background-color: none;
+            background: oklch(0.278 0.033 256.848);
+            border-radius: 9px;
+              &:hover{
+                background: oklch(50.02% 0.03389 259.57)
+              }
+        }
+    }
+}

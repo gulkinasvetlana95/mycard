@@ -1,6 +1,8 @@
 @import './style/header.scss';
 @import './style/main.scss';
 @import './style/body.scss';
+@import './style/connection';
+@import 'style/_footer.scss';
 .wrapper {
   max-width: 1440px;
   width: 100%;

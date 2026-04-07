@@ -247,35 +247,64 @@
     }
     &__item{
       &-blue{
-        // width: 90%;
         padding: 20px;
         background-color: rgb(241, 245, 254);
         border-radius: 9px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
       }
       &-green{
         padding: 20px;
         background-color: rgb(240, 255, 243);
         border-radius: 9px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
       }
       &-purple{
         padding: 20px;
         background-color: rgb(242, 238, 252);
         border-radius: 9px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
       }
       &-orange{
         padding: 20px;
         background-color: rgb(251, 238, 234);
         border-radius: 9px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
       }
       &-pink{
         padding: 20px;
         background-color: rgb(252, 237, 251);
         border-radius: 9px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
       }
       &-yellow{
         padding: 20px;
         background-color: rgb(255, 255, 224);
         border-radius: 9px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
       }
     }
     &__name{
@@ -300,7 +329,6 @@
         margin: 10px 0 0 ;
     }
         &__progress{
-            // width: 95%;
             display: flex;
             flex-wrap: wrap;
             justify-content: start;
